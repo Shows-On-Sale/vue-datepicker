@@ -1,5 +1,5 @@
 {
-  "name": "@mathieustan/vue-datepicker",
+  "name": "@shows-on-sale/vue-datepicker",
   "description": "A clean datepicker made with VueJs",
   "version": "0.2.11",
   "author": "Mathieu Stanowski <mathieu.stan@gmail.com>",
@@ -27,10 +27,10 @@
   "unpkg": "dist/vue-datepicker.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathieustan/vue-datepicker.git"
+    "url": "git+https://github.com/shows-on-sale/vue-datepicker.git"
   },
   "bugs": {
-    "url": "https://github.com/mathieustan/vue-datepicker/issues"
+    "url": "https://github.com/shows-on-sale/vue-datepicker/issues"
   },
   "homepage": "https://vue-datepicker.netlify.com/",
   "scripts": {
