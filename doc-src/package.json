@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "intersection-observer": "^0.11.0",
+    "intersection-observer": "^0.12.0",
     "lodash.throttle": "^4.1.1",
     "markdown-it": "^12.0.2",
     "prismjs": "^1.19.0",
