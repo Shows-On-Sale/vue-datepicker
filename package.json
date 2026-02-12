@@ -60,7 +60,7 @@
     "@babel/plugin-transform-runtime": "^7.6.2",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@rollup/plugin-babel": "^5.0.0",
+    "@rollup/plugin-babel": "^6.0.0",
     "@rollup/plugin-buble": "^0.21.3",
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",
