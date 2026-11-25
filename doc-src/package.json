@@ -15,7 +15,7 @@
     "lodash.throttle": "^4.1.1",
     "markdown-it": "^12.0.2",
     "prismjs": "^1.19.0",
-    "vue": "^2.6.10",
+    "vue": "^3.0.0",
     "vue-prism-component": "^1.1.1",
     "vue-scrollto": "^2.18.1"
   },
