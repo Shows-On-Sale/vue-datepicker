@@ -2259,6 +2259,11 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
+baseline-browser-mapping@^2.11.37:
+  version "2.11.39"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.39.tgz#4e99c4845e0c2100b6b1ef189bce3643d11e604e"
+  integrity sha512-Q9buOYhr2ggrEZpImICecZTJHCCd8yXkRUokFlUEQ8uiD6oP82F4W4jWnhOHZYV+wlvrC51V7Wy0ULyWjil5Wg==
+
 batch@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
@@ -2508,15 +2513,15 @@ browserify-zlib@^0.2.0:
     pako "~1.0.5"
 
 browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.3.4, browserslist@^4.5.4, browserslist@^4.6.4:
-  version "4.14.7"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.14.7.tgz#c071c1b3622c1c2e790799a37bb09473a4351cb6"
-  integrity sha512-BSVRLCeG3Xt/j/1cCGj1019Wbty0H+Yvu2AOuZSuoaUWn3RatbL33Cxk+Q4jRMRAbOm0p7SLravLjpnT6s0vzQ==
+  version "4.29.6"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.29.6.tgz#1a1873937c88f82aca6d0ae6ebba262d971a3b16"
+  integrity sha512-CmVVIQ3RVc5HxYEc9X84GvxK/C8C1wH8TlKAiO7uTxF8PDwt7r8t9Qk3J9NkMOVzX5O/HbLv3yzxZg9HPrnI9w==
   dependencies:
-    caniuse-lite "^1.0.30001157"
-    colorette "^1.2.1"
-    electron-to-chromium "^1.3.591"
-    escalade "^3.1.1"
-    node-releases "^1.1.66"
+    baseline-browser-mapping "^2.11.37"
+    caniuse-lite "^1.0.30001826"
+    electron-to-chromium "^1.5.486"
+    node-releases "^2.0.64"
+    update-browserslist-db "^1.4.0"
 
 bser@2.1.1:
   version "2.1.1"
@@ -2766,10 +2771,15 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001157:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109:
   version "1.0.30001157"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001157.tgz#2d11aaeb239b340bc1aa730eca18a37fdb07a9ab"
   integrity sha512-gOerH9Wz2IRZ2ZPdMfBvyOi3cjaz4O4dgNwPGzx8EhqAs4+2IL/O+fJsbt+znSigujoZG8bVcIAUM/I/E5K3MA==
+
+caniuse-lite@^1.0.30001826:
+  version "1.0.30001828"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001828.tgz#cf8d703ed2e29b917ddf2bcdb64483c604339709"
+  integrity sha512-7MWeT+3DlrpuDybTWHl4Zb1Z80Z1fLLnOXuBjDXebzDVcqnEWUlV8JcbASg8B8BhcW8QT2UiR1KAtzYFIZHZYA==
 
 capture-exit@^1.2.0:
   version "1.2.0"
@@ -3385,6 +3395,11 @@ core-js@^2.4.0, core-js@^2.5.0, core-js@^2.6.5:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
+
+core-js@^3.14.0:
+  version "3.51.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.51.0.tgz#9a7b197159ab83173b50efbe0c4846bec94b3abb"
+  integrity sha512-7bDKx/5jm5MxzsXxc93g6Z2+4ZsuT/MddrfRmTDJNAkWsYWHU8EVNEsBiIEWnMAMCHMmRfUEjkuo3jeNBOIHRw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -4231,10 +4246,10 @@ ejs@^2.6.1:
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
-electron-to-chromium@^1.3.591:
-  version "1.3.595"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.595.tgz#e8a9e7c6919963419f892ea981d7b3438ccb834d"
-  integrity sha512-JpaBIhdBkF9FLG7x06ONfe0f5bxPrxRcq0X+Sc8vsCt+OPWIzxOD+qM71NEHLGbDfN9Q6hbtHRv4/dnvcOxo6g==
+electron-to-chromium@^1.5.486:
+  version "1.5.494"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.494.tgz#395edb7b233beebe025db41cbf7a1194beb28ea3"
+  integrity sha512-Tph7ohL4Xc0ft3DXElYEIVTmPI3H0MtPCTdgtz5AwWGZG6q+vMiT3IzJ3RJX/HJQ8pYzeimQyvi6SsBTOS0nyQ==
 
 elliptic@^6.5.3:
   version "6.5.3"
@@ -4369,6 +4384,11 @@ escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
+
+escalade@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.2.0.tgz#011a3f69856ba189dffa7dc8fcce99d2a87903e5"
+  integrity sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -8423,10 +8443,10 @@ node-notifier@^5.2.1:
     shellwords "^0.1.1"
     which "^1.3.0"
 
-node-releases@^1.1.66:
-  version "1.1.66"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.66.tgz#609bd0dc069381015cd982300bae51ab4f1b1814"
-  integrity sha512-JHEQ1iWPGK+38VLB2H9ef2otU4l8s3yAMt9Xf934r6+ojCYDMHPMqvCc9TnzfeFSP1QEOeU6YZEd3+De0LTCgg==
+node-releases@^2.0.64:
+  version "2.0.65"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.65.tgz#8937f0f215e572b35c1dc83f8c6ec61cafccb9f8"
+  integrity sha512-PfvofsGQ+MiOQIPkX9fU8ELUWmy5zL74CdQaph/ismKszfFkfwXaw0cGiwbwym2hT9k5+mdyl8O5WQ1MD8EHmA==
 
 node-sass@^4.14.1:
   version "4.14.1"
@@ -9128,6 +9148,11 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+
+picocolors@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
+  integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2:
   version "2.2.2"
@@ -12233,6 +12258,14 @@ upath@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
+
+update-browserslist-db@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.4.0.tgz#2b03b1089585b595fd2c38a9c021c0e40a441633"
+  integrity sha512-WPJuOnjI9FWDct4fB+ej4Mz8opLaw5CDcZ2t44tFZ0vIQVYWzBhWR3mkixuUj/A7+vY4V9+ApOZ2YYLwdgq46w==
+  dependencies:
+    escalade "^3.2.0"
+    picocolors "^1.1.1"
 
 upper-case@^1.1.1:
   version "1.1.3"
